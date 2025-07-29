@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins' , 'sans-serif';
@@ -95,4 +95,92 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+} */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: 'Poppins', sans-serif;
+}
+
+pratik-weather .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    animation: fadeIn 1s ease-in-out;
+}
+/* .search input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px; /* Rounded only on left */
+    /*
+    border: none;
+    outline: none;
+    height: 40px; /* Fixed height */
+
+
+.search input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+
+.search button img {
+    width: 22px;   /* Adjust size */
+    height: 22px;  /* Keep it proportional */
+}
+
+.weather-icon {
+    width: 100px;
+    animation: float 2s infinite ease-in-out;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .footer {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    opacity: 0.8;
+} */
+
+.footer {
+    margin-top: 20px;       /* Space above footer */
+    text-align: center;     /* Center text */
+    font-size: 14px;
+    color: white;
+    opacity: 0.8;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes float {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
 }
